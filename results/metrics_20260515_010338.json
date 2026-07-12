@@ -1,0 +1,74 @@
+{
+  "baseline": {
+    "n": 3,
+    "avg_em": 0.0,
+    "avg_bert_f1": 0.0,
+    "avg_latency_s": 87.27
+  },
+  "bm25_article": {
+    "n": 3,
+    "avg_em": 0.0,
+    "avg_bert_f1": 0.0,
+    "avg_latency_s": 143.92,
+    "recall@1": null,
+    "recall@3": null,
+    "recall@5": null,
+    "mrr": null,
+    "n_with_gold": 0
+  },
+  "bm25_fixed": {
+    "n": 3,
+    "avg_em": 0.0,
+    "avg_bert_f1": 0.0,
+    "avg_latency_s": 157.52,
+    "recall@1": null,
+    "recall@3": null,
+    "recall@5": null,
+    "mrr": null,
+    "n_with_gold": 0
+  },
+  "dense_article": {
+    "n": 3,
+    "avg_em": 0.0889,
+    "avg_bert_f1": 0.0,
+    "avg_latency_s": 130.93,
+    "recall@1": null,
+    "recall@3": null,
+    "recall@5": null,
+    "mrr": null,
+    "n_with_gold": 0
+  },
+  "dense_fixed": {
+    "n": 3,
+    "avg_em": 0.0,
+    "avg_bert_f1": 0.0,
+    "avg_latency_s": 165.36,
+    "recall@1": null,
+    "recall@3": null,
+    "recall@5": null,
+    "mrr": null,
+    "n_with_gold": 0
+  },
+  "hybrid_article": {
+    "n": 3,
+    "avg_em": 0.1,
+    "avg_bert_f1": 0.0,
+    "avg_latency_s": 148.97,
+    "recall@1": null,
+    "recall@3": null,
+    "recall@5": null,
+    "mrr": null,
+    "n_with_gold": 0
+  },
+  "hybrid_fixed": {
+    "n": 3,
+    "avg_em": 0.1444,
+    "avg_bert_f1": 0.0,
+    "avg_latency_s": 192.86,
+    "recall@1": null,
+    "recall@3": null,
+    "recall@5": null,
+    "mrr": null,
+    "n_with_gold": 0
+  }
+}

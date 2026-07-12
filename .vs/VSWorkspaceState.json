@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\data",
+    "\\data\\chunks",
+    "\\data\\processed",
+    "\\data\\raw",
+    "\\evaluation",
+    "\\index_cache",
+    "\\results",
+    "\\scripts",
+    "\\systems"
+  ],
+  "SelectedNode": "\\results\\metrics_20260515_122057.json",
+  "PreviewInSolutionExplorer": false
+}

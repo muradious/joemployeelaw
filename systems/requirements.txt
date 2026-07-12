@@ -1,0 +1,22 @@
+# NLP Project — Python dependencies
+# Install with:  pip install -r requirements.txt --break-system-packages
+
+# ── Core retrieval ────────────────────────────────────────────────────────────
+rank-bm25>=0.2.2               # BM25 sparse retrieval
+faiss-cpu>=1.7.4               # FAISS vector index (CPU)
+# faiss-gpu>=1.7.2             # uncomment for GPU-accelerated FAISS (RTX 4060)
+
+# ── Embeddings ────────────────────────────────────────────────────────────────
+sentence-transformers>=2.7.0   # multilingual-E5 / AraBERT embeddings
+torch>=2.2.0                   # PyTorch backend (GPU via CUDA 12.x)
+transformers>=4.40.0           # HuggingFace model hub
+
+# ── LLM interface ─────────────────────────────────────────────────────────────
+requests>=2.31.0               # Ollama HTTP client (already installed)
+
+# ── Evaluation ────────────────────────────────────────────────────────────────
+bert-score>=0.3.13             # BERTScore (uses AraBERTv2 for Arabic)
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+numpy>=1.26.0
+tqdm>=4.66.0                   # progress bars in sentence-transformers
